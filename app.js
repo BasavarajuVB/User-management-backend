@@ -13,7 +13,7 @@ app.use(cors());
 app.use(express.json());
 
 // Define the database path
-const dbPath = path.resolve(__dirname, './database/usersdata.db');
+const dbPath = path.resolve(__dirname, './usersdata.db');
 let db;
 
 // Promise wrapper for the database `run` method
